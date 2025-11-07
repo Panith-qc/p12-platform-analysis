@@ -3,7 +3,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/DarkHorse1111/game_platform.git
+git clone https://github.com/CoolMagic0101/P12Platform.git
 cd game_platform
 ```
 
