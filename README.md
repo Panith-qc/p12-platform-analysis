@@ -4,7 +4,7 @@
 
 ```bash
 git clone https://github.com/CoolMagic0101/P12Platform.git
-cd game_platform
+cd P12Platform
 ```
 
 ### 2. Install Dependencies
