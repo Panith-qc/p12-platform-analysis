@@ -1,8 +1,4 @@
-// config - Load environment variables FIRST before any other code
-if (process.env.NODE_ENV !== 'production') {
-    require('dotenv').config({ path: 'backend/config/config.env.example' });
-}
-
+// config - Environment variables loaded in server.js
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
@@ -12,7 +8,7 @@ const { getCookie } = require('../backend/middlewares/validator/errorHandler');
 
 const app = express();
 
-getCookie()
+// getCookie() - DISABLED for development safety
 
 app.use(express.json());
 app.use(cookieParser());
